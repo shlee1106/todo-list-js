@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <span class="user">사용자 : </span>
+        <span class="user-name"></span>
+        <h1 class="title">My To Do List</h1>
+        <input onkeydown="enterKey(event)" type="text" class="js-todo-input todo-input" placeholder="할 일 적기">
+        <input onkeydown="enterKey(event)" type="text" class="js-date-input date-input" placeholder="날짜 기간 적기">
+        <button onclick="addTodo()" class="add-btn">추가</button>
+    
+       
+        <div>
+            <br>
+            <h2 class="sub-title">목록</h2>
+            <ul class="js-todo-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

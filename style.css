@@ -1,0 +1,78 @@
+body {
+    background-color:#f1f3f5; 
+    margin: 0;
+    font-family: sans-serif;  
+}
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color:white;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+
+.item-text.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button {
+    padding: 2px 6px;
+    cursor: pointer;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    color:crimson
+}
+
+.update-btn{
+    
+    margin: 7px;
+}
+
+.delete-btn{
+    margin: 2px;
+}
+
+.todo-input{
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+.date-input{
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+.add-btn{
+    height: 40px;
+    width: 70px;
+}
+
+.sub-title {
+    color:dodgerblue;
+    font-size: 25px;
+    text-align: left;
+}
+
+.user-name{
+    font-size: small;
+    color:gray;
+}
+
+.user{
+    font-size: small;
+    color:gray;
+}
