@@ -33,3 +33,4 @@
 
 ## 📄 발표 자료
 * [PPT 발표 자료 다운로드받기](./2501098_이승희.pptx)
+* **웹페이지 바로 실행:** https://shlee1106.github.io/todo-list-js/
